@@ -1,0 +1,5 @@
+use twitter;
+select * from users ;
+insert into users (first_name,last_name,handle,birthday,created_at,updated_at) values ('Gabriel','Tapia','gabriel2907','1984-07-29','2021-06-07','2021-06-07');
+update users set handle = 'gabo2907' where id = 7;
+delete users from users where id = 6;
